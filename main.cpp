@@ -12,8 +12,6 @@ struct Employee {
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
 
-
-
     int fd = open("./Employee.txt", O_RDONLY);
     if (fd == -1) {
         perror("open");
