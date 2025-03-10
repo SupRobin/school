@@ -13,6 +13,7 @@ struct Employee {
 int main() {
 
 
+
     int fd = open("./Employee.txt", O_RDONLY);
     if (fd == -1) {
         perror("open");
